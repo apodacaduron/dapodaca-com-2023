@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 
 export default function HeaderSection() {
   return (
-    <section className={styles['header-section']}>
+    <section id="home" className={styles['header-section']}>
       <div className={styles['nav']}>
         <NavContent />
       </div>

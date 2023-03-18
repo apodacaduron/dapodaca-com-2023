@@ -1,6 +1,6 @@
 .header-section {
   box-sizing: border-box;
-  padding: 24px;
+  padding: 24px 24px 32px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,4 +29,26 @@
   letter-spacing: -2px;
   line-height: 100%;
   margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading > h1 {
+    font-size: 72px;
+    letter-spacing: -4px;
+  }
+  .heading > p {
+    font-size: 24px;
+    letter-spacing: -1px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .heading > h1 {
+    font-size: 64px;
+    letter-spacing: -4px;
+  }
+  .heading > p {
+    font-size: 18px;
+    letter-spacing: -1px;
+  }
 }
